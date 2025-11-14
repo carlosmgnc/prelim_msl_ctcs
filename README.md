@@ -1,4 +1,4 @@
-1. Example trajectory (note: actual values for heatrate need to be verified)
+1. Example trajectory (NOTE!!: actual values for heatrate constraint need to be verified, may not be physical)
 <div style="text-align: center;">
   <img src="plots/alt.png" alt="trajectory" width="400" />
   <img src="plots/vel.png" alt="animation" width="400" />
