@@ -143,7 +143,7 @@ def plot(params, x, u, sigma):
     names= ['alt', 'vel', 'long_lat', 'bank', 'aoa']
     for i in range(5):  # suppose you have 3 figures
         plt.figure(i+1)
-        filename = os.path.join(desktop, f"prelim_scp_" + names[i]+ ".pdf")
+        filename = os.path.join(desktop, f"prelim_scp_" + names[i]+ ".png")
         plt.savefig(filename, format="pdf", bbox_inches="tight")
 
     plt.show(block=False)
